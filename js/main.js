@@ -6,7 +6,9 @@
  * REFERENZE ELEMENTI
  */
 var container = document.getElementById('biglietto');
+
 var bottoneGenera = document.getElementById('bottoneGenera');
+var bottoneAnnulla = document.getElementById('bottoneAnnulla');
 
 
 
@@ -65,6 +67,14 @@ bottoneGenera.addEventListener('click',
 );
 
 // Reset biglietto
+bottoneAnnulla.addEventListener('click',
+function () {
+    
+    
+}
 
+
+
+)
 
 
