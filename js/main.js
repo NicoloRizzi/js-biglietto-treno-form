@@ -21,7 +21,7 @@ bottoneGenera.addEventListener('click',
     function() {
         // Ottieni valori input utente
         var nome = document.getElementById('nome').value;
-        //console.log(nome); 
+        console.log(nome); 
 
         var kmDaPercorrere = document.getElementById('km').value;
         //console.log(kmDaPercorrere); 
@@ -69,7 +69,32 @@ bottoneGenera.addEventListener('click',
 // Reset biglietto
 bottoneAnnulla.addEventListener('click',
 function () {
+    // ACQUISISCO IL VALORE ALL'INTERNO DELL'ELEMENTO HTML PER POI RIASSEGNARE IL VALORE DI STRINGA EMPTY;
+    var nome = document.getElementById('nome').value = '';
+    console.log(nome);
+
+     // ACQUISISCO IL VALORE ALL'INTERNO DELL'ELEMENTO HTML PER POI RIASSEGNARE IL VALORE DI 1;
+    var kmDaPercorrere = document.getElementById('km').value = 1;
+    console.log(kmDaPercorrere);
+
+    // ACQUISISCO IL VALORE ALL'INTERNO DELL'ELEMENTO HTML PER POI RIASSEGNARE IL VALORE DI TIPO STRINGA EMPTY;
+    var fasciaEta = document.getElementById('fascia-eta').value = '';
+    console.log(fasciaEta);
     
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE CONTENUTO NELLA VARIABILE nome
+    document.getElementById(nome).innerHTML = nome;
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE CONTENUTO NELLA VARIABILE kmDaPercorrere
+
+    document.getElementById(km).innerHTML = kmDaPercorrere;
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE CONTENUTO NELLA VARIABILE fasciaEta
+    document.getElementById(fascia-eta) = fasciaEta;
+    
+    
+    
+    
+        
     
 }
 
