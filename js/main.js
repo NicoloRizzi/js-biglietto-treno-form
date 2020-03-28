@@ -79,11 +79,17 @@ function () {
     var kmDaPercorrere = document.getElementById('km').value = '';
     //console.log(kmDaPercorrere);
 
-    // ACQUISISCO IL VALORE ALL'INTERNO DELL'ELEMENTO HTML PER POI RIASSEGNARE IL VALORE DI TIPO STRINGA EMPTY;
+    // ACQUISISCO IL VALORE ALL'INTERNO DELL'ELEMENTO HTML PER POI RIASSEGNARE IL VALORE DI DEFAULT SU MINORENNE;
     var fasciaEta = document.getElementById('fascia-eta').value = 'minorenne';
     //console.log(fasciaEta);
+
+    var offerta = document.getElementById('offerta-applicata').value = '';
+
+    var numCarrozza = document.getElementById('carrozza').value = '';
+
+    var codiceCp = document.getElementById('codice-cp').value = '';
     
-    
+    var costoBiglietto = document.getElementById('costo').value = '';
 
     
     // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE CONTENUTO NELLA VARIABILE nome
@@ -99,7 +105,23 @@ function () {
 
     // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO INPUT MODE CONTENUTO NELLA VARIABILE fasciaEta
     document.getElementById('fascia-eta').inputMode = fasciaEta;
-    console.log(fasciaEta);
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO STRINGA EMPTY CONTENUTO NELLA VARIABILE offerta
+
+    document.getElementById('offerta-applicata').innerHTML = offerta;
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO STRINGA EMPTY CONTENUTO NELLA VARIABILE numCarrozza
+
+    document.getElementById('carrozza').innerHTML = numCarrozza;
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO STRINGA EMPTY CONTENUTO NELLA VARIABILE codiceCp
+
+    document.getElementById('codice-cp').innerHTML = codiceCp;
+
+    // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO STRINGA EMPTY CONTENUTO NELLA VARIABILE costoBiglietto
+    document.getElementById ('costo').innerHTML = costoBiglietto;
+
+
     
     
 
