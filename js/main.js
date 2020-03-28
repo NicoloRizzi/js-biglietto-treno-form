@@ -121,6 +121,8 @@ function () {
     // PRINT ALL'INTERNO DEL DOCUMENTO HTML IL VALORE DI TIPO STRINGA EMPTY CONTENUTO NELLA VARIABILE costoBiglietto
     document.getElementById ('costo').innerHTML = costoBiglietto;
 
+    container.className = 'hidden';
+
 
     
     
